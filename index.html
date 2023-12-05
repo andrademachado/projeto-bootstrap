@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viva Pet</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <style>
+        section{
+            height: 100vh;
+            background-color:#fff;
+            padding-top: 120px;
+            
+        }
+
+        header{
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color:#fff;
+            }
+
+            header h1{
+                font-size:64px;
+            }
+    </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar">
+            <div class="container">
+                <h1>Viva Pet</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <nav class="collapse navbar-collapse" id="menu">
+                <ul class="nav nav-pill">
+                    <li class="nav-item " >
+                        <a class="nav-link active" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#alimentar">Alimentar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#diversao">Divertir</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cuidar">Cuidar</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+    </header>
+ <div class="container">
+    <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-intervalo="3000" class="carousel-item active" >
+                <img class="d-block w-100" src="./img/cachorro.jpg" width="400" />
+                <div class="carousel-caption">
+                    <h2>Dog</h2>
+                </div>
+            </div>
+            <div data-bs-intervalo="3000" class="carousel-item" >
+                <img class="d-block w-100 " src="./img/cacatua.jpg" width="400" />
+                <div class="carousel-caption">
+                    <h2>Bird</h2>
+                </div>
+            </div>
+           
+            <div data-bs-intervalo="3000" class="carousel-item"  >
+                <img class="d-block w-100 " src="./img/Gato.jpg" width="400" />
+                <div class="carousel-caption">
+                    <h2>Cat</h2>
+                </div>
+            </div>
+            
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+ </div>
+ 
+   <div class="container">
+    <section id="alimentar">
+        <h1>Alimentar</h1>
+        <div class="container ">
+            <div class="row">
+                <div class=" col-md-2  ">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Comedouros</h4>
+                        </div>
+                        <img src="./img/Racao.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title"></h4>
+                            <h5 class="card-subtitle">Comedouros ,bebedouros</h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae voluptate, quisquam placeat nulla, consectetur officiis unde cum suscipit, sequi omnis natus illo? Blanditiis quibusdam numquam hic voluptate omnis officia.
+                            </p>
+                            <a href="#" class="btn btn-primary">Acessar</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-2  ">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Ração</h4>
+                        </div>
+                        <img src="./img/racao2.jpg" />
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <br>
+                            <h5 class="card-subtitle">Rações secas e úmidas.</h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae voluptate, quisquam placeat nulla, consectetur officiis unde cum suscipit, sequi omnis natus illo? Blanditiis quibusdam numquam hic voluptate omnis officia.
+                            </p>
+                            <a href="#" class="btn btn-primary">Acessar</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-2  ">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Petiscos</h4>
+                        </div>
+                        <img src="./img/petisco.jpg" />
+                        <div class="card-body">
+                            <h5 class="card-title">Petiscos para cãe e gatos</h4>
+                            <h5 class="card-subtitle"></h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae voluptate, quisquam placeat nulla, consectetur officiis unde cum suscipit, sequi omnis natus illo? Blanditiis quibusdam numquam hic voluptate omnis officia.
+                            </p>
+                            <a href="#" class="btn btn-primary">Acessar</a>
+
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+    <section id="diversao">
+        <h1>Divertir</h1>
+        <div class="container ">
+            <div class="row">
+                <div class=" col-md-2  ">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Para cães</h4>
+                        </div>
+                        <img src="./img/cãozinho.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Brinquedos</h4>
+                            <h5 class="card-subtitle">Mordedores,Cabo de guerra</h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae voluptate, quisquam placeat nulla, consectetur officiis unde cum suscipit, sequi omnis natus illo? Blanditiis quibusdam numquam hic voluptate omnis officia.
+                            </p>
+                            <a href="#" class="btn btn-primary">Acessar</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-2  ">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Para gatos</h4>
+                        </div>
+                        <img src="./img/gatinho.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Brinquedos</h4>
+                            <h5 class="card-subtitle">Varinhas com fitas, bolinhas com cordas. </h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae voluptate, quisquam placeat nulla, consectetur officiis unde cum suscipit, sequi omnis natus illo? Blanditiis quibusdam numquam hic voluptate omnis officia.
+                            </p>
+                            <a href="#" class="btn btn-primary">Acessar</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-2  ">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Passear</h4>
+                        </div>
+                        <img src="./img/coleira.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title">Guias , coleiras</h4>
+                            <h5 class="card-subtitle"></h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae voluptate, quisquam placeat nulla, consectetur officiis unde cum suscipit, sequi omnis natus illo? Blanditiis quibusdam numquam hic voluptate omnis officia.
+                            </p>
+                            <a href="#" class="btn btn-primary">Acessar</a>
+
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <section id="cuidar">
+        <h1>Cuidar</h1>
+        <div class="container ">
+            <div class="row">
+                <div class=" col-md-2  ">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Banho</h4>
+                        </div>
+                        <img src="./img/shampoo.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title"></h4>
+                            <h5 class="card-subtitle">Shampoo, colônia</h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae voluptate, quisquam placeat nulla, consectetur officiis unde cum suscipit, sequi omnis natus illo? Blanditiis quibusdam numquam hic voluptate omnis officia.
+                            </p>
+                            <a href="#" class="btn btn-primary">Acessar</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-2  ">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Higiene</h4>
+                        </div>
+                        <img src="./img/areia.jpg" />
+                        <div class="card-body">
+                            <h5 class="card-title">Tapete higiênico, areia</h5>
+                            <h5 class="card-subtitle"></h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae voluptate, quisquam placeat nulla, consectetur officiis unde cum suscipit, sequi omnis natus illo? Blanditiis quibusdam numquam hic voluptate omnis officia.
+                            </p>
+                            <a href="#" class="btn btn-primary">Acessar</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-2  ">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Prevenção</h4>
+                        </div>
+                        <img src="./img/antipulga.jpg" />
+                        <div class="card-body">
+                            <h4 class="card-title"></h4>
+                            <h5 class="card-subtitle">Antipulgas,vermífugo</h5>
+                            <p class="card-text">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi recusandae voluptate, quisquam placeat nulla, consectetur officiis unde cum suscipit, sequi omnis natus illo? Blanditiis quibusdam numquam hic voluptate omnis officia.
+                            </p>
+                           
+                            <a href="#" class="btn btn-primary">Acessar</a>
+
+                        </div>
+                    </div>
+                </div>
+    </section>
+</div>
+</div>
+</div>
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
